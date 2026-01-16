@@ -28,7 +28,7 @@ const App = () => {
     // const comics_page = selectedPage ==='Comics' ? <Comics/> : null;
 
     return (
-        <Router> 
+        <Router basename="/Marvel_API_practice"> 
             <div className="app">
                 {/* <AppHeader onPageSelected={onPageSelected} selectedPage={selectedPage}/> */}
                 <AppHeader/>
